@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Spanish Translation</string>
+    <string name="app_number">Numbers</string>
+    <string name="app_family">Family Members</string>
+    <string name="app_color">Colors</string>
+    <string name="app_phrases">Phrases</string>
+    <string name="number">Numbers</string>
+    <string name="family">Family</string>
+    <string name="color">Colors</string>
+    <string name="phrases">Phrases</string>
+</resources>

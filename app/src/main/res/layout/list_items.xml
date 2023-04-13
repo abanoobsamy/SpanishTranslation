@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:minHeight="@dimen/list_item_height"
+    android:background="@color/tan_background">
+
+    <ImageView
+        android:id="@+id/all_image"
+        android:layout_width="@dimen/list_item_height"
+        android:layout_height="@dimen/list_item_height"
+        android:scaleType="centerCrop"
+        app:srcCompat="@drawable/cow_boy_hat_face" />
+
+    <LinearLayout
+        android:id="@+id/text_category"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/category_numbers"
+        android:orientation="vertical"
+        android:paddingLeft="16dp">
+
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:gravity="bottom"
+            android:text="TextView"
+            android:textAppearance="?android:textAppearanceMedium"
+            android:textColor="@android:color/white"
+            android:textStyle="bold"
+            tools:text="uno" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:gravity="top"
+            android:text="TextView"
+            android:textAppearance="?android:textAppearanceMedium"
+            android:textColor="@android:color/white"
+            tools:text="one" />
+
+    </LinearLayout>
+
+
+</LinearLayout>
